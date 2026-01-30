@@ -1,0 +1,902 @@
+[
+  {
+    "Question_id": 1,
+    "Big_Question": "DMA(Direct Memory Access)는 CPU의 지속적인 개입 없이 DMA 컨트롤러가 메모리와 입출력 장치 사이의 데이터 전송을 직접 수행하는 방식이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "DMA는 전송 시작 설정과 완료 인터럽트 처리 정도만 CPU가 관여하고, 실제 전송은 DMA 컨트롤러가 메모리↔장치 간에 직접 수행한다."
+  },
+  {
+    "Question_id": 2,
+    "Big_Question": "CPU 내부에서 산술 연산과 논리 연산을 수행하는 회로는 ALU(Arithmetic Logic Unit)이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "ALU는 덧셈/뺄셈 같은 산술 연산과 AND/OR/비교 같은 논리 연산을 담당하는 CPU 구성요소이다."
+  },
+  {
+    "Question_id": 3,
+    "Big_Question": "플래그 레지스터는 ALU 연산 결과의 상태 비트(Zero, Carry 등)를 저장하며, 제어장치가 조건 분기 등 실행 흐름 제어에 참고한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "플래그 레지스터에는 연산 결과로 생성되는 상태 정보가 저장되고, 제어장치는 이를 이용해 분기/조건 실행을 결정한다."
+  },
+  {
+    "Question_id": 4,
+    "Big_Question": "번지(address)로 지정된 저장 위치의 내용이 실제 유효주소가 되는 주소지정 방식은 직접지정(Direct Addressing) 방식이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "지정된 저장 위치의 '내용'이 실제 주소가 되는 것은 간접지정(Indirect Addressing) 방식이며, 직접지정은 명령어의 주소 필드가 곧 유효주소이다."
+  },
+  {
+    "Question_id": 5,
+    "Big_Question": "JK 플립플롭에서 J=1, K=1이면 출력은 토글되어 보수(반전)로 바뀐다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "JK 플립플롭의 특성표에서 J=K=1일 때 다음 상태는 현재 상태의 보수로 변한다(토글)."
+  },
+  {
+    "Question_id": 6,
+    "Big_Question": "2진수 10001010의 2의 보수는 01110110이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "1의 보수는 01110101이고 여기에 1을 더하면 01110110이 되어 2의 보수가 된다."
+  },
+  {
+    "Question_id": 7,
+    "Big_Question": "명령어 주기(Instruction Cycle)에는 일반적으로 인출(Fetch), 해독(Decode), 실행(Execute) 등이 포함되며 Branch Cycle은 보통 명령어 주기에 속하지 않는 것으로 본다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "문항 기준에서 명령어 주기에 속하지 않는 것으로 Branch Cycle이 제시되며, 기본 주기는 인출/해독/실행(및 필요 시 간접/인터럽트) 등으로 설명된다."
+  },
+  {
+    "Question_id": 8,
+    "Big_Question": "주기억장치, 제어장치, 연산장치 사이에서 정보가 이동되는 경로를 시스템 버스(bus)라고 한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "CPU(제어장치/연산장치)와 주기억장치 등의 구성요소 간 데이터·주소·제어 신호가 오가는 공통 경로가 버스이다."
+  },
+  {
+    "Question_id": 9,
+    "Big_Question": "논리적 연산(logical operation)에는 MULTIPLY(곱셈) 연산이 포함된다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "MULTIPLY는 산술 연산이며, 논리 연산은 AND/OR/NOT/XOR/비교 같은 비트·논리 연산을 말한다."
+  },
+  {
+    "Question_id": 10,
+    "Big_Question": "진리표에서 출력이 두 입력이 모두 1일 때만 0이 되는 회로는 NAND 게이트이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "두 입력이 모두 1일 때만 0이 되는 것은 AND의 부정인 NAND가 아니라, NAND는 두 입력이 모두 1일 때만 0이 맞지만 문장 조건이 '모두 1일 때만 0'인지가 핵심이며 일반 NAND 진리표는 (1,1)->0이고 나머지는 1이다. 따라서 문장 자체는 NAND의 정의와 일치하므로 O가 되어야 하나, 진리표 설명이 '모두 1일 때만 0'인 회로는 NAND가 맞다."
+  },
+  {
+    "Question_id": 11,
+    "Big_Question": "부울식 A·(A·B+C)는 A·(B+C)로 간략화할 수 있다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "A·(A·B+C)=A·(A·B)+A·C=A·B+A·C=A·(B+C)로 정리된다."
+  },
+  {
+    "Question_id": 12,
+    "Big_Question": "채널(channel)은 제어장치로부터 명령을 받아 입출력 동작을 수행한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "채널은 CPU(제어장치)의 제어 하에 I/O를 담당하며, 제어장치의 명령에 따라 입출력 처리를 수행한다."
+  },
+  {
+    "Question_id": 13,
+    "Big_Question": "2^n개의 입력 중 하나를 선택하여 한 개의 출력선으로 보내는 조합논리회로는 멀티플렉서(MUX)이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "멀티플렉서는 선택선으로 여러 입력 중 하나를 골라 단일 출력으로 전달하는 회로이다."
+  },
+  {
+    "Question_id": 14,
+    "Big_Question": "연산자(operator)의 기능에는 주소 지정 기능이 포함된다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "주소 지정은 보통 '주소지정 방식(addressing mode)'의 영역이며, 연산자는 산술/논리/관계/대입 등의 연산 수행 기능과 관련된다."
+  },
+  {
+    "Question_id": 15,
+    "Big_Question": "재배치 로더(relocation loader)는 원시 프로그램을 읽어 명령어를 해석하는 기능을 수행한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "재배치 로더는 적재 위치 변경에 따른 주소 수정(재배치) 등을 담당하며, 원시 프로그램을 읽어 해석하는 것은 보통 컴파일러/어셈블러 등의 역할이다."
+  },
+  {
+    "Question_id": 16,
+    "Big_Question": "연산 결과의 부호(sign)와 같은 상태 정보를 저장하는 것은 상태 레지스터(status register)이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "부호/제로/캐리/오버플로 등 연산 결과 상태 비트는 상태(플래그) 레지스터에 저장된다."
+  },
+  {
+    "Question_id": 17,
+    "Big_Question": "EBCDIC 코드는 총 8비트이며, 이 중 존(Zone) 코드는 4비트로 구성된다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "EBCDIC는 8비트 코드 체계이고 상위 4비트를 존(Zone), 하위 4비트를 숫자(Digit) 부분으로 설명한다."
+  },
+  {
+    "Question_id": 18,
+    "Big_Question": "키보드, OCR, OMR, MICR은 모두 입력 장치에 해당한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "키보드와 OCR/OMR/MICR은 모두 데이터 입력을 위한 장치(또는 입력 방식)로 분류된다."
+  },
+  {
+    "Question_id": 19,
+    "Big_Question": "8비트 부호화 절대치(부호-절대값) 방식에서 10진수 -13은 00001101로 표현된다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "부호화 절대치 방식은 최상위 비트가 부호(음수=1)이고 나머지가 절대값이므로 -13은 1 0001101 → 10001101이다."
+  },
+  {
+    "Question_id": 20,
+    "Big_Question": "스프레드시트에서 반복되거나 복잡한 작업 단계를 일괄적으로 자동화하는 기능은 매크로(Macro)이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "매크로는 여러 작업을 기록/스크립트화하여 반복 실행하도록 자동화하는 기능이다."
+  },
+  {
+    "Question_id": 21,
+    "Big_Question": "스프레드시트에서 원하는 레코드만 선택해 표시하는 기능을 필터(Filter)라고 한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "필터는 조건에 맞는 행(레코드)만 보이도록 추려서 표시하는 기능이다."
+  },
+  {
+    "Question_id": 22,
+    "Big_Question": "데이터베이스에서 도메인(domain)은 특정 속성(attribute)이 가질 수 있는 값들의 범위를 의미한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "도메인은 속성값의 허용 범위(값의 집합/타입/제약)를 뜻한다."
+  },
+  {
+    "Question_id": 23,
+    "Big_Question": "SQL에서 price 기준 오름차순 정렬은 ORDER BY price ASC로 수행한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "ORDER BY 컬럼명 ASC는 해당 컬럼을 기준으로 오름차순 정렬을 의미한다(ASC는 기본값이기도 함)."
+  },
+  {
+    "Question_id": 24,
+    "Big_Question": "SQL에서 테이블 구조를 정의, 변경, 제거하는 명령을 순서대로 나열하면 CREATE, ALTER, DROP이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "DDL에서 생성은 CREATE, 변경은 ALTER, 삭제는 DROP 명령으로 수행한다."
+  },
+  {
+    "Question_id": 25,
+    "Big_Question": "SQL의 CREATE 문은 데이터 조작어(DML)에 해당한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "CREATE는 테이블/스키마 등 구조를 정의하는 데이터 정의어(DDL)이며, DML은 SELECT/INSERT/UPDATE/DELETE 등을 말한다."
+  },
+  {
+    "Question_id": 26,
+    "Big_Question": "DMA(Direct Memory Access)는 CPU의 지속적인 개입 없이 DMA 컨트롤러가 메모리와 입출력 장치 사이의 데이터 전송을 직접 수행한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "DMA는 전송 자체를 DMA 컨트롤러가 담당하고, CPU는 전송 설정과 완료 인터럽트 처리만 수행해 CPU 부하를 줄인다."
+  },
+  {
+    "Question_id": 27,
+    "Big_Question": "CPU에서 산술 연산과 논리 연산을 수행하는 장치는 Memory Unit이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "산술·논리 연산은 ALU(Arithmetic Logic Unit)가 수행하며, Memory Unit은 데이터를 저장하는 장치이다."
+  },
+  {
+    "Question_id": 28,
+    "Big_Question": "플래그 레지스터는 ALU 연산 결과(Zero, Carry 등) 상태 비트를 저장하여 제어장치가 분기/조건 실행 판단에 활용할 수 있게 한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "플래그 레지스터는 연산 결과 상태를 저장하고, 제어 논리가 이를 참조해 다음 실행 흐름(조건 분기 등)을 결정한다."
+  },
+  {
+    "Question_id": 29,
+    "Big_Question": "번지로 지정된 저장 위치의 내용이 실제 유효 주소(번지)가 되는 주소 지정 방식은 직접 지정 방식이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "지정한 번지에 들어있는 값이 다시 실제 주소가 되는 것은 간접지정(Indirect Addressing) 방식이다."
+  },
+  {
+    "Question_id": 30,
+    "Big_Question": "JK 플립플롭에서 J=1, K=1이면 출력은 토글(toggle)되어 보수 출력이 된다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "JK 플립플롭은 J=K=1일 때 현재 상태가 반전(토글)되어 보수 출력이 나타난다."
+  },
+  {
+    "Question_id": 31,
+    "Big_Question": "2진수 10001010의 2의 보수는 01110110이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "1의 보수(01110101)에 1을 더하면 01110110이므로 2의 보수가 맞다."
+  },
+  {
+    "Question_id": 32,
+    "Big_Question": "명령어 주기(Instruction Cycle)에는 인출(Fetch), 해독(Decode), 실행(Execute) 등이 포함되며, Branch Cycle도 표준적으로 포함된다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "제시 자료에서 '명령어 주기에 속하지 않는 것'으로 Branch Cycle이 정답이므로, Branch Cycle을 표준 구성으로 포함된다고 단정하면 거짓이다."
+  },
+  {
+    "Question_id": 33,
+    "Big_Question": "여러 입력(2^n) 중 하나를 선택하여 한 개 출력선으로 내보내는 조합논리회로는 멀티플렉서(MUX)이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "멀티플렉서는 선택선에 의해 다수 입력 중 하나를 골라 단일 출력으로 전달하는 회로이다."
+  },
+  {
+    "Question_id": 34,
+    "Big_Question": "논리적 연산에는 AND, OR 같은 연산이 포함되며 MULTIPLY(곱셈)도 논리 연산에 해당한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "MULTIPLY는 산술 연산이며, 논리 연산은 AND/OR/NOT, 비교 등 논리(부울) 처리에 해당한다."
+  },
+  {
+    "Question_id": 35,
+    "Big_Question": "A·(A·B + C)를 간략화하면 A·(B + C)로 정리할 수 있다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "A·(A·B + C) = A·A·B + A·C = A·B + A·C = A·(B + C)로 정리된다."
+  },
+  {
+    "Question_id": 36,
+    "Big_Question": "채널(Channel)은 입출력 제어를 위해 CPU가 아니라 제어장치로부터 명령을 받는다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "제시 자료에서 '채널은 어떤 장치에서 명령을 받는가'의 정답이 '제어장치'로 주어져 있다."
+  },
+  {
+    "Question_id": 37,
+    "Big_Question": "연산자의 기능에는 주소 지정 기능이 포함되며, 따라서 '주소 지정 기능'은 연산자의 기능과 거리가 가깝다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "제시 자료에서 '연산자의 기능과 거리가 먼 것'의 정답이 '주소 지정 기능'이므로, 연산자 기능에 해당한다고 보면 거짓이다."
+  },
+  {
+    "Question_id": 38,
+    "Big_Question": "재배치 로더(relocation loader)는 프로그램이 기억장치의 임의 위치에 적재될 수 있도록 주소를 조정하지만, 원시 프로그램을 읽어 명령어를 해석하는 역할은 아니다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "제시 자료에서 '역할이 아닌 것'이 '원시 프로그램을 읽어서 명령어를 해석'이므로, 이는 로더의 기능이 아니다."
+  },
+  {
+    "Question_id": 39,
+    "Big_Question": "연산 결과의 부호(상태)를 저장하는 레지스터는 상태 레지스터(Status Register)이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "제시 자료에서 연산결과의 부호를 저장하는 것으로 상태 레지스터가 정답으로 제시되어 있다."
+  },
+  {
+    "Question_id": 40,
+    "Big_Question": "EBCDIC 코드는 8비트 코드이며, 이 중 존(Zone) 코드는 4비트로 구성된다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "제시 자료에서 EBCDIC의 존 코드는 4비트가 정답으로 주어져 있다."
+  },
+  {
+    "Question_id": 41,
+    "Big_Question": "키보드, OCR, OMR, MICR는 모두 입력장치로만 나열된 예이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "키보드와 OCR/OMR/MICR는 입력을 받는 장치(또는 입력 장치로 분류되는 장비)로, 제시 자료에서 입력장치만 나열된 정답으로 제시되었다."
+  },
+  {
+    "Question_id": 42,
+    "Big_Question": "8비트에서 -13을 부호화-절대치(Sign-magnitude) 방식으로 표현하면 10001101이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "절대치 13은 00001101이고, 음수는 최상위 비트를 1로 하므로 10001101이 된다(제시 정답과 일치)."
+  },
+  {
+    "Question_id": 43,
+    "Big_Question": "스프레드시트에서 반복 작업을 일괄 자동화하여 실행하는 기능은 필터(Filter)이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "반복/복잡 작업의 자동화는 매크로(Macro)이며, 필터는 조건에 맞는 레코드만 선택해 표시하는 기능이다."
+  },
+  {
+    "Question_id": 44,
+    "Big_Question": "스프레드시트에서 원하는 레코드만 선택해 표시하는 기능은 필터(Filter)이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "필터는 입력된 자료 중 조건에 맞는 레코드만 걸러 표시하는 기능으로 제시 자료의 정답이다."
+  },
+  {
+    "Question_id": 45,
+    "Big_Question": "관계 데이터베이스에서 속성(Attribute)의 수를 의미하는 것은 카디널리티(Cardinality)이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "속성의 수는 차수(Degree)이며, 카디널리티는 튜플(행)의 수를 의미한다."
+  },
+  {
+    "Question_id": 46,
+    "Big_Question": "도메인(Domain)은 속성이 가질 수 있는 값들의 범위를 의미한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "도메인은 해당 속성에 허용되는 값의 집합/범위로, 제시 자료에서 정답으로 제시된 내용이다."
+  },
+  {
+    "Question_id": 47,
+    "Big_Question": "SQL에서 price 기준 오름차순 정렬은 ORDER BY price ASC로 수행한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "ORDER BY 컬럼 ASC는 오름차순 정렬 구문이며, 제시 자료의 정답과 동일하다."
+  },
+  {
+    "Question_id": 48,
+    "Big_Question": "테이블 구조를 정의/변경/제거하는 DDL 명령은 CREATE, ALTER, DROP 순서로 대응된다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "CREATE는 정의, ALTER는 변경, DROP은 제거에 사용되는 DDL로 제시 자료의 정답이다."
+  },
+  {
+    "Question_id": 49,
+    "Big_Question": "프리젠테이션에서 사용하는 하나의 화면 단위를 '슬라이드'라고 한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "프리젠테이션의 한 화면(페이지) 단위는 슬라이드이며, 제시 자료의 정답이다."
+  },
+  {
+    "Question_id": 50,
+    "Big_Question": "DBMS의 주요 기능에 '관리 기능'은 포함되지 않는다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "제시 자료에서 'DBMS의 주요 기능에 속하지 않는 것'의 정답이 '관리 기능'으로 주어져, 주요 기능으로 포함되지 않는다고 본다."
+  },
+  {
+    "Question_id": 51,
+    "Big_Question": "DMA(Direct Memory Access)는 CPU의 지속적인 개입 없이 DMA 컨트롤러가 메모리와 입출력 장치 사이의 데이터 전송을 직접 수행하는 방식이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "DMA는 전송 자체는 DMA 컨트롤러가 담당하고, CPU는 전송 시작 설정과 완료 인터럽트 처리만 관여하므로 CPU 개입이 최소화된다."
+  },
+  {
+    "Question_id": 52,
+    "Big_Question": "ALU(Arithmetic Logic Unit)는 메모리의 데이터를 저장·관리하는 장치이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "ALU는 산술/논리 연산을 수행하는 회로이며, 데이터 저장은 Memory Unit(기억장치)의 역할이다."
+  },
+  {
+    "Question_id": 53,
+    "Big_Question": "플래그 레지스터(flag register)는 ALU 연산 결과로 발생한 상태 비트(Zero, Carry, Overflow 등)를 저장해 제어장치가 분기/조건 실행에 활용할 수 있게 한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "플래그 레지스터는 연산 결과의 상태를 비트로 보관하며, 제어장치가 이를 참조해 다음 실행 흐름(조건 분기 등)을 결정한다."
+  },
+  {
+    "Question_id": 54,
+    "Big_Question": "간접지정 방식은 명령어의 주소 필드가 가리키는 값이 곧 유효주소(EA)이므로, 한 번의 메모리 참조만으로 주소가 결정된다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "간접지정은 주소 필드가 가리키는 저장위치의 '내용'이 실제 주소(EA)이므로 주소를 얻기 위해 추가 메모리 참조가 필요하다."
+  },
+  {
+    "Question_id": 55,
+    "Big_Question": "JK 플립플롭에서 J=1, K=1이면 출력은 토글(보수 출력)된다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "JK 플립플롭의 기본 동작에서 J=K=1일 때는 이전 출력의 반대값으로 바뀌는 토글 상태가 된다."
+  },
+  {
+    "Question_id": 56,
+    "Big_Question": "2진수 10001010의 2의 보수는 비트를 반전한 뒤 1을 더하므로 01110101이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "10001010을 반전하면 01110101이고 여기에 1을 더하면 01110110이므로 01110101은 1의 보수 결과이다."
+  },
+  {
+    "Question_id": 57,
+    "Big_Question": "명령어 주기(Instruction Cycle)는 일반적으로 인출(Fetch)과 해독(Decode), 실행(Execute) 등의 단계로 구성되며, 'Branch Cycle'은 표준적인 주기의 필수 구성요소로 보지 않는다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "명령어 주기는 보통 Fetch/Decode/Execute(및 필요 시 Interrupt 등)로 설명되며 Branch는 실행 단계의 한 유형이지 별도의 고정 주기 구성요소로 보지 않는다."
+  },
+  {
+    "Question_id": 58,
+    "Big_Question": "MULTIPLY(곱셈)는 논리적 연산에 해당한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "곱셈은 산술 연산이며, 논리 연산은 AND/OR/NOT/XOR, 비교 등의 비트/논리 처리에 해당한다."
+  },
+  {
+    "Question_id": 59,
+    "Big_Question": "NAND 게이트는 AND 연산 결과를 부정(NOT)한 출력 특성을 가진다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "NAND는 NOT(AND)로 정의되며, 모든 입력이 1일 때만 0을 출력하고 그 외에는 1을 출력한다."
+  },
+  {
+    "Question_id": 60,
+    "Big_Question": "불 대수식 A·(A·B + C)는 흡수법칙에 의해 A·B + A·C로만 간략화되며 더 이상 줄일 수 없다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "A·(A·B+C)=A·A·B + A·C = A·B + A·C = A·(B+C)로 묶어 더 간략화할 수 있다."
+  },
+  {
+    "Question_id": 61,
+    "Big_Question": "채널(Channel)은 CPU의 제어장치로부터 명령을 받아 입출력 동작을 수행한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "채널은 I/O를 전담하는 장치로서 제어장치의 지시를 받아 주변장치와 메모리 간 전송 등을 수행한다."
+  },
+  {
+    "Question_id": 62,
+    "Big_Question": "멀티플렉서(Multiplexer)는 하나의 입력을 여러 출력 중 하나로 분배하는 조합논리회로이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "멀티플렉서는 여러 입력(2^n) 중 하나를 선택해 하나의 출력으로 보내는 회로이며, 하나를 여러 곳으로 보내는 것은 디멀티플렉서(Demultiplexer)이다."
+  },
+  {
+    "Question_id": 63,
+    "Big_Question": "연산자(Operator)의 기능에는 산술, 관계(비교), 논리 연산 등이 포함되며 '주소 지정 기능'은 연산자 기능과는 거리가 멀다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "연산자는 값의 계산/비교/논리 결합 등에 사용되며, 주소 지정은 명령어의 주소지정 방식 등과 관련된 개념이다."
+  },
+  {
+    "Question_id": 64,
+    "Big_Question": "재배치 로더(relocation loader)는 원시 프로그램(source program)을 읽어 명령어를 해석하는 역할을 수행한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "원시 프로그램을 해석하는 것은 컴파일러/어셈블러의 역할에 가깝고, 재배치 로더는 적재 시 주소를 조정(재배치)하는 기능이 핵심이다."
+  },
+  {
+    "Question_id": 65,
+    "Big_Question": "상태 레지스터(status register)는 연산 결과의 부호(Sign) 등 상태 정보를 저장한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "상태 레지스터(또는 플래그/조건 코드)는 부호, 제로, 캐리, 오버플로 같은 상태 비트를 저장해 이후 제어에 활용된다."
+  },
+  {
+    "Question_id": 66,
+    "Big_Question": "EBCDIC 코드는 총 8비트로 구성되며, 이 중 존(Zone) 코드는 3비트로 구성된다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "EBCDIC는 8비트 코드이며 존(Zone) 부분은 4비트로 구성된다고 본다."
+  },
+  {
+    "Question_id": 67,
+    "Big_Question": "키보드, OCR, OMR, MICR은 모두 입력장치로 분류된다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "키보드와 OCR/OMR/MICR은 각각 문자·마크·자기잉크 문자를 읽어들이는 입력장치로 사용된다."
+  },
+  {
+    "Question_id": 68,
+    "Big_Question": "8비트에서 부호화 절대치(부호-크기) 방식으로 -13을 표현하면 최상위 비트는 1이고 나머지 7비트는 13(0001101)이므로 10001101이 된다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "부호-크기 방식은 MSB가 부호(음수=1), 나머지가 절대값이므로 1 + 0001101 → 10001101이다."
+  },
+  {
+    "Question_id": 69,
+    "Big_Question": "스프레드시트에서 매크로는 반복적이거나 복잡한 작업 단계를 자동화하여 일괄 실행하는 기능이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "매크로는 사용자가 수행한 작업을 기록하거나 코딩해 반복 실행함으로써 작업을 자동화한다."
+  },
+  {
+    "Question_id": 70,
+    "Big_Question": "스프레드시트의 '필터' 기능은 입력된 자료를 특정 조건에 맞는 레코드만 선택하여 표시하는 기능이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "필터는 조건에 맞는 행(레코드)만 화면에 보이도록 추려서 표시하는 기능이다."
+  },
+  {
+    "Question_id": 71,
+    "Big_Question": "데이터베이스에서 도메인(domain)은 테이블(관계)에서 속성(attribute)의 개수를 의미한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "속성의 개수는 차수(Degree)이며, 도메인은 해당 속성이 가질 수 있는 값의 범위(허용 값 집합)를 의미한다."
+  },
+  {
+    "Question_id": 72,
+    "Big_Question": "SQL에서 price 기준 오름차순 정렬은 ORDER BY price ASC로 수행한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "ORDER BY 컬럼 ASC는 해당 컬럼을 오름차순(기본값이 ASC인 DB도 있으나 명시 가능)으로 정렬한다."
+  },
+  {
+    "Question_id": 73,
+    "Big_Question": "SQL의 DDL에서 테이블 구조를 정의, 변경, 제거하는 명령은 순서대로 DROP, ALTER, CREATE이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "정의/변경/제거는 각각 CREATE, ALTER, DROP의 순서가 맞다."
+  },
+  {
+    "Question_id": 74,
+    "Big_Question": "프리젠테이션에서 사용하는 하나의 화면 단위를 '슬라이드(slide)'라고 한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "프리젠테이션은 여러 장의 화면(슬라이드)로 구성되며 각 화면 단위를 슬라이드라고 부른다."
+  },
+  {
+    "Question_id": 75,
+    "Big_Question": "DBMS의 목적 중 하나는 데이터 중복성을 최대화하여 저장 효율을 높이는 것이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "DBMS는 데이터의 통합 관리로 중복을 최소화하고 일관성/무결성을 높이는 것이 목적이므로 '중복성 최대화'는 반대 개념이다."
+  },
+  {
+    "Question_id": 76,
+    "Big_Question": "DMA(Direct Memory Access)는 CPU의 지속적인 개입 없이 DMA 컨트롤러가 메모리와 입출력 장치 사이의 데이터 전송을 직접 수행하는 방식이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "DMA는 전송 시작 설정과 완료 인터럽트 처리만 CPU가 관여하고, 실제 데이터 전송은 DMA 컨트롤러가 메모리↔장치 간에 직접 수행한다."
+  },
+  {
+    "Question_id": 77,
+    "Big_Question": "CPU 내부에서 산술 연산과 논리 연산을 수행하는 장치는 I/O Unit(입출력 장치)이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "산술·논리 연산은 ALU(Arithmetic Logic Unit)가 담당하며, I/O Unit은 외부 장치와의 입출력을 담당한다."
+  },
+  {
+    "Question_id": 78,
+    "Big_Question": "플래그 레지스터는 ALU 연산 결과로 발생하는 상태 비트(Zero, Carry 등)를 저장하여 조건 분기 등에 활용된다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "플래그 레지스터는 연산 결과의 상태를 저장하고, 제어장치가 이를 참고해 다음 실행(조건 분기 등)을 제어한다."
+  },
+  {
+    "Question_id": 79,
+    "Big_Question": "번지로 지정된 저장 위치의 내용이 실제 주소가 되는 주소지정 방식은 직접지정 방식이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "저장 위치에 들어있는 값이 실제 주소가 되는 것은 간접지정 방식(Indirect addressing)이다."
+  },
+  {
+    "Question_id": 80,
+    "Big_Question": "JK 플립플롭에서 J=1, K=1이면 출력은 토글(보수 출력)된다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "JK 플립플롭은 J=K=1일 때 현재 출력의 보수로 변하는 토글 동작을 한다."
+  },
+  {
+    "Question_id": 81,
+    "Big_Question": "2진수 10001010의 2의 보수는 01110110이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "1의 보수는 01110101이고, 여기에 1을 더하면 01110110이므로 2의 보수는 01110110이다."
+  },
+  {
+    "Question_id": 82,
+    "Big_Question": "명령어 주기(Instruction Cycle)에는 일반적으로 인출(Fetch), 해독(Decode), 실행(Execute) 단계가 포함되며 Branch Cycle은 일반적인 구성 요소로 보지 않는다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "명령어 주기는 보통 인출-해독-실행(필요 시 간접/인터럽트 등)으로 구성되며, Branch Cycle을 별도 주기로 보지 않는 문맥에서 ‘속하지 않는 것’으로 제시된다."
+  },
+  {
+    "Question_id": 83,
+    "Big_Question": "연산을 자료의 성격에 따라 나눌 때 MULTIPLY는 논리적 연산에 해당한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "MULTIPLY(곱셈)는 산술 연산이며, 논리 연산은 AND/OR/XOR/NOT 및 비교 등이 해당한다."
+  },
+  {
+    "Question_id": 84,
+    "Big_Question": "A·(A·B + C)는 불대수 간략화하면 A·(B + C)로 정리될 수 있다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "흡수/분배 법칙을 적용하면 A·(A·B + C) = A·A·B + A·C = A·B + A·C = A·(B + C)이다."
+  },
+  {
+    "Question_id": 85,
+    "Big_Question": "채널(Channel)은 CPU의 제어장치로부터 명령을 받아 입출력 동작을 수행한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "채널은 제어장치의 지시에 따라 I/O를 처리하는 전용 처리기 성격을 가지며, CPU 제어 하에 동작한다."
+  },
+  {
+    "Question_id": 86,
+    "Big_Question": "멀티플렉서(Multiplexer)는 하나의 입력을 여러 출력 중 하나로 전달하는 조합 논리 회로이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "멀티플렉서는 여러 입력(2^n) 중 하나를 선택해 단일 출력으로 내보낸다. ‘하나의 입력을 여러 출력 중 하나로’는 디멀티플렉서 설명에 가깝다."
+  },
+  {
+    "Question_id": 87,
+    "Big_Question": "연산자의 기능과 거리가 먼 것은 주소 지정 기능이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "연산자는 산술/논리/관계/대입 등의 연산 기능을 수행하며, 주소 지정은 주소지정 방식 등과 관련되어 연산자 기능과는 거리가 멀다."
+  },
+  {
+    "Question_id": 88,
+    "Big_Question": "재배치 로더(relocation loader)는 원시 프로그램을 읽어서 명령어를 해석하는 역할을 수행한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "재배치 로더의 핵심은 적재 주소 조정(재배치), 외부 기호 결합(연결) 등이며, 원시 프로그램 해석은 주로 컴파일러/어셈블러의 역할이다."
+  },
+  {
+    "Question_id": 89,
+    "Big_Question": "연산 결과의 부호(sign) 등 상태 정보를 저장하는 것은 상태 레지스터(상태/플래그 계열)이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "연산 결과의 부호, 영(Zero), 캐리 등은 상태 레지스터(플래그 레지스터)에 저장되어 이후 조건 분기 등에 사용된다."
+  },
+  {
+    "Question_id": 90,
+    "Big_Question": "EBCDIC 코드는 총 8비트이며, 이 중 존(Zone) 코드는 4비트로 구성된다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "EBCDIC는 8비트 코드이고, 일반적으로 상위 4비트를 존(Zone), 하위 4비트를 디지트(Digit)로 본다."
+  },
+  {
+    "Question_id": 91,
+    "Big_Question": "키보드, OCR, OMR, MICR은 모두 입력장치에 해당한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "키보드와 각종 문자/마크/자기잉크 인식기(OCR/OMR/MICR)는 데이터를 컴퓨터로 입력하는 장치이다."
+  },
+  {
+    "Question_id": 92,
+    "Big_Question": "8비트에서 10진수 -13을 부호화 절대치(부호-절대값) 방식으로 표현하면 10001101이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "부호화 절대치 방식은 최상위 비트가 부호(음수=1)이고 나머지 7비트에 |13|=0001101을 저장하므로 1 0001101 → 10001101이다."
+  },
+  {
+    "Question_id": 93,
+    "Big_Question": "스프레드시트에서 반복되거나 복잡한 작업 단계를 일괄 자동화하는 방법을 필터(Filter)라고 한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "반복 작업 자동화는 매크로(Macro)이며, 필터는 조건에 맞는 레코드/행만 선별 표시하는 기능이다."
+  },
+  {
+    "Question_id": 94,
+    "Big_Question": "스프레드시트에서 입력된 자료 중 사용자가 원하는 레코드만 선택하여 표시하는 기능은 필터(Filter)이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "필터는 조건에 맞는 데이터만 화면에 표시하도록 레코드를 선별하는 기능이다."
+  },
+  {
+    "Question_id": 95,
+    "Big_Question": "데이터베이스에서 도메인(domain)은 어떤 속성이 가질 수 있는 값의 범위를 의미한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "도메인은 속성에 허용되는 값들의 집합/범위(예: 나이 0~150, 성별 {M,F})를 뜻한다."
+  },
+  {
+    "Question_id": 96,
+    "Big_Question": "SQL에서 price 기준 오름차순 정렬은 ORDER BY price DESC를 사용한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "오름차순은 ASC이며, DESC는 내림차순이다. 따라서 ORDER BY price ASC가 맞다."
+  },
+  {
+    "Question_id": 97,
+    "Big_Question": "SQL에서 테이블 구조를 정의/변경/제거하는 DDL 명령의 올바른 순서는 CREATE, ALTER, DROP이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "정의는 CREATE, 변경은 ALTER, 제거는 DROP으로 DDL의 대표 명령이 해당 순서로 대응된다."
+  },
+  {
+    "Question_id": 98,
+    "Big_Question": "프리젠테이션에서 사용하는 하나의 화면 단위를 슬라이드(Slide)라고 한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "프리젠테이션은 여러 개의 슬라이드(화면)로 구성되며 각 화면 단위가 슬라이드이다."
+  },
+  {
+    "Question_id": 99,
+    "Big_Question": "관계 데이터베이스에서 속성(Attribute)의 수를 의미하는 것은 카디널리티(Cardinality)이다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 2,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "속성(열)의 수는 차수(Degree)이고, 카디널리티(Cardinality)는 튜플(행)의 수를 의미한다."
+  },
+  {
+    "Question_id": 100,
+    "Big_Question": "SQL의 CREATE 문은 데이터 정의문(DDL)에 해당한다.",
+    "Option1": "O",
+    "Option2": "X",
+    "Correct_Option": 1,
+    "Category": "프로그래밍기능사",
+    "Answer_description": "CREATE는 테이블/뷰/인덱스 등 데이터베이스 객체를 정의하는 명령으로 DDL에 속한다."
+  }
+]

@@ -1,0 +1,72 @@
+# Exam Pipeline Configuration
+# Copy this file to config.yaml and customize as needed
+
+# PDF Extraction
+pdf:
+  option_count: 4  # Default: 4 or 5
+  image_assignment:
+    tolerance_y: 5
+    max_offset: 150
+    column_detection_enabled: true
+
+# AI Processing
+ai:
+  model: "o3-2025-04-16"
+  chunk_size: 10
+  max_concurrent: 5
+  retry:
+    max_attempts: 3
+    delay: 2.0
+  timeout: 180.0
+
+# Audio
+audio:
+  question_tts:
+    provider: "google"  # google-cloud-texttospeech
+    voice: "ko-KR-Standard-D"
+    speaking_rate: 0.9
+    pitch: -4.0
+    compression:
+      bitrate: "32k"
+      sample_rate: 16000
+
+  lecture:
+    import_mode: true  # Use NotebookLM imports
+    output_dir: "assets/audio/summary"
+
+# App Building
+app:
+  flutter_version: "3.x"
+  logo:
+    size: 1024
+    background_colors: "auto"  # or specify list of hex colors
+    pattern_count: 25
+
+  screenshot:
+    devices:
+      - "iPhone 15 Pro Max"
+      - "iPad Pro (12.9-inch) (6th generation)"
+    count: 15
+
+  ios:
+    deployment_target: "15.0"
+    admob_app_id: "ca-app-pub-2598779635969436~4262650072"
+
+# Deployment
+deploy:
+  fastlane:
+    scheme: "Runner"
+    workspace: "Runner.xcworkspace"
+    export_method: "app-store"
+
+  app_store:
+    team_id: "CPHBF5XF4B"
+    apple_id: "bombezzang2607@gmail.com"
+    primary_category: "EDUCATION"
+    secondary_category: "PRODUCTIVITY"
+    copyright: "© 2025 Jongmin Kim"
+
+# Logging
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"

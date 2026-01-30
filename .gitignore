@@ -175,3 +175,14 @@ logs/
 *.tmp
 temp/
 tmp/
+
+# Poetry
+poetry.lock
+.poetry/
+
+# New project structure
+/config/config.yaml
+/config/.env
+
+# Old scripts (during migration)
+/old_scripts/

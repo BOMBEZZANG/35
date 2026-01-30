@@ -1,0 +1,122 @@
+Category: 프로그래밍기능사
+
+Question_id: 1
+Question_Number: 1
+Big_Question: 다음이 설명하고 있는 데이터 입출력 방식은?
+Question: [이미지]
+Option1: DCA
+Option2: DMA
+Option3: Multiplexer
+Option4: Channel
+Correct_Option: 2 (옵션: DMA)
+Answer_description: 정답은 **② DMA**입니다. **DMA(Direct Memory Access)**는 입출력 장치가 CPU의 지속적인 개입 없이 **DMA 컨트롤러가 메모리와 장치 사이의 데이터 전송을 직접 수행**하는 방식으로, CPU는 전송 시작 설정과 완료 시점의 인터럽트 처리만 담당해 효율이 높습니다. ① DCA는 CPU가 전송을 직접 제어하는 방식이고, ③ Multiplexer와 ④ Channel은 여러 장치를 공유·관리하는 구조/장치에 가까워 문제의 “직접 메모리 접근 전송” 설명과 다릅니다.
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 2
+Question_Number: 2
+Big_Question: 컴퓨터 시스템의 중앙처리장치를 구성하는 하나의 회로로써 산술 및 논리 연산을 수행하는 장치는?
+Question: [이미지]
+Option1: Arithmetic Logic Unit
+Option2: Memory Unit
+Option3: I/O Unit
+Option4: Associative Memory Unit
+Correct_Option: 1 (옵션: Arithmetic Logic Unit)
+Answer_description: 해설: 중앙처리장치(CPU) 안에서 **산술 연산(덧셈, 뺄셈 등)**과 **논리 연산(AND, OR, 비교 등)**을 실제로 수행하는 회로는 **ALU(Arithmetic Logic Unit, 산술논리연산장치)**이므로 ①이 정답입니다. 반면 **Memory Unit**은 데이터를 저장하고, **I/O Unit**은 입출력을 담당하며, **Associative Memory Unit**은 내용 기반으로 데이터를 찾는 특수 기억장치로 연산 수행 장치가 아닙니다.
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 3
+Question_Number: 3
+Big_Question: 제어논리장치(CLU)와 산술논리연산 장치(ALU)의 실행순서를 제어하기 위해 사용되는 레지스터는?
+Question: [이미지]
+Option1: 누산기(accumulator)
+Option2: 프로그램 상태 워드(program Status Word)
+Option3: 명령 레지스터(instruction register)
+Option4: 플래그 레지스터(flag register)
+Correct_Option: 4 (옵션: 플래그 레지스터(flag register))
+Answer_description: 정답은 ④ 플래그 레지스터입니다. 플래그 레지스터는 ALU 연산 결과로 생성되는 상태 비트(예: Zero, Carry, Overflow 등)를 저장하고, 제어논리장치(CLU)가 이 상태를 참고해 다음 단계의 실행(분기, 조건 실행 등)과 CLU–ALU의 동작 순서를 제어합니다. ①은 연산 결과를 임시 저장하는 레지스터이고, ③은 현재 명령을 보관하며, ② PSW는 플래그를 포함한 더 넓은 실행 상태 정보를 담는 개념이라 이 문항에서는 플래그 레지스터가 가장 직접적인 정답입니다.
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 4
+Question_Number: 4
+Big_Question: 번지(address)로 지정된 저장위치(storage location)의 내용 이 실제 번지가 되는 주소지정번지는?
+Question: [이미지]
+Option1: 간접지정 방식
+Option2: 완전지정방식
+Option3: 절대지정방식
+Option4: 상대지정방식
+Correct_Option: 1 (옵션: 간접지정 방식)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 5
+Question_Number: 5
+Big_Question: JK플립플롭(flip flop)에서 보수가 출력되기 위한 J, K의 입력 상태는?
+Question: [이미지]
+Option1: J=1, K=0
+Option2: J=0, K=1
+Option3: J=1, K=1
+Option4: J=0, K=0
+Correct_Option: 3 (옵션: J=1, K=1)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 6
+Question_Number: 6
+Big_Question: 2진수 (10001010)를 2의 보수로 옳게 표현한 것은?
+Question: [이미지]
+Option1: 01110101
+Option2: 01110110
+Option3: 10001011
+Option4: 10000110
+Correct_Option: 2 (옵션: 01110110)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 7
+Question_Number: 7
+Big_Question: 하나의 명령어를 중앙 처리 장치에서 처리하는데 포함된 일 련의 동작들을 총칭하여 명령어 주기(Instruction Cycle)라 하 는데 명령어 주기에 속하지 않는 것은?
+Question: [이미지]
+Option1: Branch Cycle
+Option2: Fetch Cycle
+Option3: Indirect Cycle
+Option4: Interrupt cycle
+Correct_Option: 1 (옵션: Branch Cycle)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 8
+Question_Number: 8
+Big_Question: 주기억장치, 제어장치, 연산장치 사이에서 정보가 이동 되는 경로이다. 빈 부분에 알맞은 장치는?
+Question: [이미지]
+Option1: 제어장치주기억장치주기억장치제어장치
+Option2: 주기억장치연산장치제어장치연산장치
+Option3: 연산장치제어장치연산장치주기억장치
+Option4: [이미지]
+Correct_Option: 2 (옵션: 주기억장치연산장치제어장치연산장치)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 9
+Question_Number: 9
+Big_Question: 연산을 자료의 성격에 따라 나눌 때, 논리적 연산에 해당하지 않는 것은?
+Question: [이미지]
+Option1: ROTATE
+Option2: AND
+Option3: MULTIPLY
+Option4: COMPLEMENT
+Correct_Option: 3 (옵션: MULTIPLY)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 10
+Question_Number: 10
+Big_Question: 진리표가 다음 표와 같이 되는 논리 회로는?
+Question: [이미지]
+Option1: AND 게이트
+Option2: OR 게이트
+Option3: NOR 게이트
+Option4: NAND 게이트
+Correct_Option: 4 (옵션: NAND 게이트)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------

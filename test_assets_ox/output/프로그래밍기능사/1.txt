@@ -1,0 +1,422 @@
+Category: 프로그래밍기능사
+
+Question_id: 1
+Big_Question: 다음이 설명하고 있는 데이터 입출력 방식은?
+Question: [이미지]
+Correct_Option: 2 (옵션: DMA)
+Answer_description: 정답은 **② DMA**입니다. **DMA(Direct Memory Access)**는 입출력 장치가 CPU의 지속적인 개입 없이 **DMA 컨트롤러가 메모리와 장치 사이의 데이터 전송을 직접 수행**하는 방식으로, CPU는 전송 시작 설정과 완료 시점의 인터럽트 처리만 담당해 효율이 높습니다. ① DCA는 CPU가 전송을 직접 제어하는 방식이고, ③ Multiplexer와 ④ Channel은 여러 장치를 공유·관리하는 구조/장치에 가까워 문제의 “직접 메모리 접근 전송” 설명과 다릅니다.
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 2
+Big_Question: 컴퓨터 시스템의 중앙처리장치를 구성하는 하나의 회로로써 산술 및 논리 연산을 수행하는 장치는?
+Question: 컴퓨터 시스템의 중앙처리장치를 구성하는 하나의 회로로써 산술 및 논리 연산을 수행하는 장치는?
+Correct_Option: 1 (옵션: Arithmetic Logic Unit)
+Answer_description: 해설: 중앙처리장치(CPU) 안에서 **산술 연산(덧셈, 뺄셈 등)**과 **논리 연산(AND, OR, 비교 등)**을 실제로 수행하는 회로는 **ALU(Arithmetic Logic Unit, 산술논리연산장치)**이므로 ①이 정답입니다. 반면 **Memory Unit**은 데이터를 저장하고, **I/O Unit**은 입출력을 담당하며, **Associative Memory Unit**은 내용 기반으로 데이터를 찾는 특수 기억장치로 연산 수행 장치가 아닙니다.
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 3
+Big_Question: 제어논리장치(CLU)와 산술논리연산 장치(ALU)의 실행순서를 제어하기 위해 사용되는 레지스터는?
+Question: 제어논리장치(CLU)와 산술논리연산 장치(ALU)의 실행순서를 제어하기 위해 사용되는 레지스터는?
+Correct_Option: 4 (옵션: 플래그 레지스터(flag register))
+Answer_description: 정답은 ④ 플래그 레지스터입니다. 플래그 레지스터는 ALU 연산 결과로 생성되는 상태 비트(예: Zero, Carry, Overflow 등)를 저장하고, 제어논리장치(CLU)가 이 상태를 참고해 다음 단계의 실행(분기, 조건 실행 등)과 CLU–ALU의 동작 순서를 제어합니다. ①은 연산 결과를 임시 저장하는 레지스터이고, ③은 현재 명령을 보관하며, ② PSW는 플래그를 포함한 더 넓은 실행 상태 정보를 담는 개념이라 이 문항에서는 플래그 레지스터가 가장 직접적인 정답입니다.
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 4
+Big_Question: 번지(address)로 지정된 저장위치(storage location)의 내용 이 실제 번지가 되는 주소지정번지는?
+Question: 번지(address)로 지정된 저장위치(storage location)의 내용 이 실제 번지가 되는 주소지정번지는?
+Correct_Option: 1 (옵션: 간접지정 방식)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 5
+Big_Question: JK플립플롭(flip flop)에서 보수가 출력되기 위한 J, K의 입력 상태는?
+Question: JK플립플롭(flip flop)에서 보수가 출력되기 위한 J, K의 입력 상태는?
+Correct_Option: 3 (옵션: J=1, K=1)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 6
+Big_Question: 2진수 (10001010)를 2의 보수로 옳게 표현한 것은?
+Question: 2진수 (10001010)를 2의 보수로 옳게 표현한 것은?
+Correct_Option: 2 (옵션: 01110110)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 7
+Big_Question: 하나의 명령어를 중앙 처리 장치에서 처리하는데 포함된 일 련의 동작들을 총칭하여 명령어 주기(Instruction Cycle)라 하 는데 명령어 주기에 속하지 않는 것은?
+Question: 하나의 명령어를 중앙 처리 장치에서 처리하는데 포함된 일 련의 동작들을 총칭하여 명령어 주기(Instruction Cycle)라 하 는데 명령어 주기에 속하지 않는 것은?
+Correct_Option: 1 (옵션: Branch Cycle)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 8
+Big_Question: 주기억장치, 제어장치, 연산장치 사이에서 정보가 이동 되는 경로이다. 빈 부분에 알맞은 장치는?
+Question: 주기억장치, 제어장치, 연산장치 사이에서 정보가 이동 되는 경로이다. 빈 부분에 알맞은 장치는?
+Correct_Option: 2 (옵션: 주기억장치연산장치제어장치연산장치)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 9
+Big_Question: 연산을 자료의 성격에 따라 나눌 때, 논리적 연산에 해당하지 않는 것은?
+Question: 연산을 자료의 성격에 따라 나눌 때, 논리적 연산에 해당하지 않는 것은?
+Correct_Option: 3 (옵션: MULTIPLY)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 10
+Big_Question: 진리표가 다음 표와 같이 되는 논리 회로는?
+Question: [이미지]
+Correct_Option: 4 (옵션: NAND 게이트)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 11
+Big_Question: A·(A·B+C)를 간략화 하면?
+Question: A·(A·B+C)를 간략화 하면?
+Correct_Option: 4 (옵션: A·(B+C))
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 12
+Big_Question: 채널은 어떤 장치에서 명령을 받는가?
+Question: 채널은 어떤 장치에서 명령을 받는가?
+Correct_Option: 4 (옵션: 제어장치)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 13
+Big_Question: 여러 개의 입력정보 (2<sup>n</sup>)중에서 하나를 선택하여 한 곳으로 출력시키는 조합 논리 회로는?
+Question: 여러 개의 입력정보 (2<sup>n</sup>)중에서 하나를 선택하여 한 곳으로 출력시키는 조합 논리 회로는?
+Correct_Option: 2 (옵션: 멀티플렉서)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 14
+Big_Question: 연산자의 기능과 거리가 먼 것은?
+Question: 연산자의 기능과 거리가 먼 것은?
+Correct_Option: 1 (옵션: 주소 지정 기능)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 15
+Big_Question: 다음과 같은 논리회로에서 A=1, B=1, C=0 일 때, X로 출력 되는 값은?
+Question: [이미지]
+Correct_Option: 2 (옵션: 1)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 16
+Big_Question: 프로그램들이 기억장치 내의 임의의 장소에 적재될 수 있도 록 조정하는 작업을 재배치(relocation)라 하는데 이 기능을 수행하는 재배치 로더(loader)의 역할이 아닌 것은?
+Question: 프로그램들이 기억장치 내의 임의의 장소에 적재될 수 있도 록 조정하는 작업을 재배치(relocation)라 하는데 이 기능을 수행하는 재배치 로더(loader)의 역할이 아닌 것은?
+Correct_Option: 3 (옵션: 원시 프로그램을 읽어서 명령어를 해석)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 17
+Big_Question: 연산장치에서 연산결과에 대한 부호를 저장하는 것은?
+Question: 연산장치에서 연산결과에 대한 부호를 저장하는 것은?
+Correct_Option: 3 (옵션: 상태 레지스터)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 18
+Big_Question: EBCDIC코드의 존(Zone) 코드는 몇 비트로 구성되어 있는 가?
+Question: EBCDIC코드의 존(Zone) 코드는 몇 비트로 구성되어 있는 가?
+Correct_Option: 2 (옵션: 4)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 19
+Big_Question: 입력장치로만 나열된 것은?
+Question: 입력장치로만 나열된 것은?
+Correct_Option: 4 (옵션: 키보드, OCR, OMR, MICR)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 20
+Big_Question: 8비트 컴퓨터에서 10진수 -13을 부호화 절대치 방식으로 표현한 것은?
+Question: 8비트 컴퓨터에서 10진수 -13을 부호화 절대치 방식으로 표현한 것은?
+Correct_Option: 1 (옵션: 10001101)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 21
+Big_Question: 스프레드시트 작업에서 반복되거나 복잡한 단계를 수행하는 작업을 일괄적으로 자동화시켜 처리하는 방법에 해당하는 것은?
+Question: 스프레드시트 작업에서 반복되거나 복잡한 단계를 수행하는 작업을 일괄적으로 자동화시켜 처리하는 방법에 해당하는 것은?
+Correct_Option: 1 (옵션: 매크로)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 22
+Big_Question: 스프레드시트의 입력된 자료에서 사용자가 원하는 레코드만 을 선택하여 표시하는 기능은?
+Question: 스프레드시트의 입력된 자료에서 사용자가 원하는 레코드만 을 선택하여 표시하는 기능은?
+Correct_Option: 1 (옵션: 필터)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 23
+Big_Question: 도메인에 대한 설명으로 가장 적합한 것은?
+Question: 도메인에 대한 설명으로 가장 적합한 것은?
+Correct_Option: 4 (옵션: 표현되는 속성 값의 범위)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 24
+Big_Question: SQL에서 테이블의 price을 기준으로 오름차순 정렬하고자 할 경우 사용되는 명령은?
+Question: SQL에서 테이블의 price을 기준으로 오름차순 정렬하고자 할 경우 사용되는 명령은?
+Correct_Option: 3 (옵션: ORDER BY price ASC)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 25
+Big_Question: SQL에서 테이블 구조를 정의, 변경, 제거하는 명령을 순서 대로 옳게 나열한 것은?
+Question: SQL에서 테이블 구조를 정의, 변경, 제거하는 명령을 순서 대로 옳게 나열한 것은?
+Correct_Option: 4 (옵션: CREATE, ALTER, DROP)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 26
+Big_Question: 프리젠테이션에서 사용하는 하나의 화면은?
+Question: 프리젠테이션에서 사용하는 하나의 화면은?
+Correct_Option: 1 (옵션: 슬라이드)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 27
+Big_Question: 데이터베이스관리시스템(DBMS: Databases Management System)의 주요 기능에 속하지 않는 것은?
+Question: 데이터베이스관리시스템(DBMS: Databases Management System)의 주요 기능에 속하지 않는 것은?
+Correct_Option: 1 (옵션: 관리 기능)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 28
+Big_Question: 관계데이터베이스에서 속성(Attribute)의 수를 의미하는 것 은?
+Question: 관계데이터베이스에서 속성(Attribute)의 수를 의미하는 것 은?
+Correct_Option: 3 (옵션: 차수(Degree))
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 29
+Big_Question: SQL 명령어 중 데이터 정의문(DDL)에 해당 하는 것은?
+Question: SQL 명령어 중 데이터 정의문(DDL)에 해당 하는 것은?
+Correct_Option: 2 (옵션: CREATE)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 30
+Big_Question: DBMS에 대한 설명으로 틀린 것은?
+Question: DBMS에 대한 설명으로 틀린 것은?
+Correct_Option: 3 (옵션: 데이터 중복성 최대화)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 31
+Big_Question: 스풀링과 버퍼링에 대한 설명으로 틀린 것은?
+Question: 스풀링과 버퍼링에 대한 설명으로 틀린 것은?
+Correct_Option: 4 (옵션: 버퍼링은 서로 다른 여러 작업에 대한 입출력과 계산을 동시에 수행한다.)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 32
+Big_Question: 도스(MS-DOS)에서 “config.sys” 파일과 “autoexec.bat"파 일의 수행을 사용자가 선택하여 실행하려고 하는 경우 사용 하는 기능키(Function key)는?
+Question: 도스(MS-DOS)에서 “config.sys” 파일과 “autoexec.bat"파 일의 수행을 사용자가 선택하여 실행하려고 하는 경우 사용 하는 기능키(Function key)는?
+Correct_Option: 4 (옵션: F8)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 33
+Big_Question: 다음 UNIX 명령어에 대한 기능으로 옳은 것은?
+Question: [이미지]
+Correct_Option: 4 (옵션: 문서 편집)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 34
+Big_Question: CPU 스케줄링 방법 중 우선순위에 의한 방법의 단점은 무 한정지(indefinite blocking)와 기아(starvation)현상이다. 이 단점을 해결하는 방안으로 가장 적합한 것은?
+Question: CPU 스케줄링 방법 중 우선순위에 의한 방법의 단점은 무 한정지(indefinite blocking)와 기아(starvation)현상이다. 이 단점을 해결하는 방안으로 가장 적합한 것은?
+Correct_Option: 3 (옵션: 에이징(aging) 방식)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 35
+Big_Question: 다음 문장의( )에 알맞은 용어는?
+Question: [이미지]
+Correct_Option: 2 (옵션: deadlock)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 36
+Big_Question: 비선점(Non-preemptive) 프로세스 스케줄링 방식에 해당 하는 것은?
+Question: 비선점(Non-preemptive) 프로세스 스케줄링 방식에 해당 하는 것은?
+Correct_Option: 2 (옵션: SJF, FIFO)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 37
+Big_Question: "윈도98"에서 보조프로그램의 구성에 해당 되는 것은?
+Question: "윈도98"에서 보조프로그램의 구성에 해당 되는 것은?
+Correct_Option: 2 (옵션: 계산기)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 38
+Big_Question: 다중 프로그래밍 환경에서 CPU가 주기억장치 내부 프로그 램을 실행하는데 걸리는 시간보다 페이지 부재에 따른 페이 지 대체에 많은 시간을 보내게 됨으로써 전체 컴퓨터 시스 템의 성능이 급격히 저하되는 현상은?
+Question: 다중 프로그래밍 환경에서 CPU가 주기억장치 내부 프로그 램을 실행하는데 걸리는 시간보다 페이지 부재에 따른 페이 지 대체에 많은 시간을 보내게 됨으로써 전체 컴퓨터 시스 템의 성능이 급격히 저하되는 현상은?
+Correct_Option: 3 (옵션: Thrashing)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 39
+Big_Question: 도스(MS-DOS)의 시스템 파일 중 감춤(Hidden) 속성의 파 일로만 짝지어진 것은?
+Question: 도스(MS-DOS)의 시스템 파일 중 감춤(Hidden) 속성의 파 일로만 짝지어진 것은?
+Correct_Option: 4 (옵션: MSDOS.SYS, IO.SYS)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 40
+Big_Question: "윈도98"에서 “바로가기 아이콘”에 대한 설명으로 틀린 것 은?
+Question: "윈도98"에서 “바로가기 아이콘”에 대한 설명으로 틀린 것 은?
+Correct_Option: 1 (옵션: 바로가기 아이콘을 삭제하면 원본 파일도 삭제된다.)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 41
+Big_Question: "윈도98"에서 도스창을 열어 작업한 후, 다시 윈도로 복귀하 고자 할 때 도스창을 종료하는 방법은?
+Question: "윈도98"에서 도스창을 열어 작업한 후, 다시 윈도로 복귀하 고자 할 때 도스창을 종료하는 방법은?
+Correct_Option: 4 (옵션: “EXIT” 명령어를 입력하고 “ENTER”를 누른다.)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 42
+Big_Question: 페이지 대체 알고리즘에서 계수기를 두어 가장 오랫동안 참 조되지 않은 페이지를 교체할 페이지로 선택하는 것은?
+Question: 페이지 대체 알고리즘에서 계수기를 두어 가장 오랫동안 참 조되지 않은 페이지를 교체할 페이지로 선택하는 것은?
+Correct_Option: 2 (옵션: LRU)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 43
+Big_Question: "윈도98"의 작업 표시줄에 관한 내용으로 옳은 것은?
+Question: "윈도98"의 작업 표시줄에 관한 내용으로 옳은 것은?
+Correct_Option: 1 (옵션: 작업표시줄에는 시작단추, 빠른 실행 도구모음, 실행중인 프로그램 목록, 표시기 등으로 구성된다.)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 44
+Big_Question: 도스 명령어 중 내부 명령어에 해당하는 것은?
+Question: 도스 명령어 중 내부 명령어에 해당하는 것은?
+Correct_Option: 4 (옵션: CLS)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 45
+Big_Question: 컴퓨터 하드웨어와 사용자를 연결시켜 사용자로 하여금 컴 퓨터 시스템을 이용, 응용 프로그램을 수행할 수 있도록 도 와주는 필수적인 프로그램은?
+Question: 컴퓨터 하드웨어와 사용자를 연결시켜 사용자로 하여금 컴 퓨터 시스템을 이용, 응용 프로그램을 수행할 수 있도록 도 와주는 필수적인 프로그램은?
+Correct_Option: 4 (옵션: 운영체제)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 46
+Big_Question: 도스(MS-DOS)에서 특정한 디렉터리 내의 모든 파일 및 하 부 디렉터리까지 복사해주는 명령어는?
+Question: 도스(MS-DOS)에서 특정한 디렉터리 내의 모든 파일 및 하 부 디렉터리까지 복사해주는 명령어는?
+Correct_Option: 2 (옵션: XCOPY)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 47
+Big_Question: UNIX에서 사용하는 쉘(Shell)이 아닌 것은?
+Question: UNIX에서 사용하는 쉘(Shell)이 아닌 것은?
+Correct_Option: 3 (옵션: DOS Shell)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 48
+Big_Question: 다음 ( )안에 알맞은 용어는?
+Question: [이미지]
+Correct_Option: 2 (옵션: Real-time operating systems)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 49
+Big_Question: "윈도98"에서 디스켓을 포맷할 때 포맷형식으로 선택할 수 없는 것은?
+Question: "윈도98"에서 디스켓을 포맷할 때 포맷형식으로 선택할 수 없는 것은?
+Correct_Option: 3 (옵션: 삭제된 파일 복구)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 50
+Big_Question: 운영체제를 제어 프로그램(Control program)과 처리 프로그 램(processing program)으로 분류했을 때, 제어 프로그램에 해당하지 않는 것은?
+Question: 운영체제를 제어 프로그램(Control program)과 처리 프로그 램(processing program)으로 분류했을 때, 제어 프로그램에 해당하지 않는 것은?
+Correct_Option: 3 (옵션: 문제 프로그램(problem program))
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 51
+Big_Question: 원거리에서 일괄처리를 수행하는 터미널(Terminal)은?
+Question: 원거리에서 일괄처리를 수행하는 터미널(Terminal)은?
+Correct_Option: 2 (옵션: 리모트 배치 터미널(Remote Batch Terminal))
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 52
+Big_Question: 다음 중 통신제어장치의 역할과 거리가 먼 것은?
+Question: 다음 중 통신제어장치의 역할과 거리가 먼 것은?
+Correct_Option: 3 (옵션: 데이터의 교환 및 축적제어)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 53
+Big_Question: 데이터 통신에서 사용되는 전송속도의 기본단위는?
+Question: 데이터 통신에서 사용되는 전송속도의 기본단위는?
+Correct_Option: 4 (옵션: bps)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 54
+Big_Question: 분산된 터미널 또는 여러 컴퓨터들이 중앙의 호스트 컴퓨터 와 집중 연결되어 있는 정보통신망의 구성 형태는?
+Question: 분산된 터미널 또는 여러 컴퓨터들이 중앙의 호스트 컴퓨터 와 집중 연결되어 있는 정보통신망의 구성 형태는?
+Correct_Option: 2 (옵션: 스타형)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 55
+Big_Question: 광통신 케이블의 전송방식에 이용되는 빛의 특성은?
+Question: 광통신 케이블의 전송방식에 이용되는 빛의 특성은?
+Correct_Option: 4 (옵션: 전반사)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 56
+Big_Question: FTP는 OSI 7계층 중 어느 계층에 속하는가?
+Question: FTP는 OSI 7계층 중 어느 계층에 속하는가?
+Correct_Option: 4 (옵션: 응용 계층)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 57
+Big_Question: 다음 중 데이터통신 교환방식이 아닌 것은?
+Question: 다음 중 데이터통신 교환방식이 아닌 것은?
+Correct_Option: 4 (옵션: 선로 교환방식)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 58
+Big_Question: 변복조기의 역할과 거리가 먼 것은?
+Question: 변복조기의 역할과 거리가 먼 것은?
+Correct_Option: 4 (옵션: 컴퓨터신호를 광케이블에 적합한 광신호로 변환한다.)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 59
+Big_Question: 전화용 동케이블과 비교하여 광케이블의 특성이 아닌 것은?
+Question: 전화용 동케이블과 비교하여 광케이블의 특성이 아닌 것은?
+Correct_Option: 3 (옵션: 주파수에 따른 신호감쇠 및 전송 지연의 변화가 크다.)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------
+Question_id: 60
+Big_Question: 프로토콜의 기본적인 요소가 아닌 것은?
+Question: 프로토콜의 기본적인 요소가 아닌 것은?
+Correct_Option: 4 (옵션: 처리)
+Answer_description: [Skipped in test]
+Date_information: [날짜 정보 없음]
+------------------------

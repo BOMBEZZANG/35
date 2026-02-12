@@ -1,0 +1,60 @@
+[tool.poetry]
+name = "exam-pipeline"
+version = "1.0.0"
+description = "Korean Exam PDF to Mobile App Pipeline"
+authors = ["Jongmin Kim <bombezzang100@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+packages = [{include = "exam_pipeline", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1.0"
+pydantic = "^2.0"
+pydantic-settings = "^2.0"
+pyyaml = "^6.0"
+python-dotenv = "^1.0"
+pymupdf = "^1.23"
+pillow = "^10.0"
+openai = "^1.0"
+edge-tts = "^6.1"
+google-cloud-texttospeech = "^2.14"
+google-cloud-vision = "^3.4"
+google-cloud-storage = "^2.10"
+pytesseract = "^0.3"
+aiosqlite = "^0.19"
+pydub = "^0.25"
+rich = "^13.0"
+tenacity = "^8.2"
+jinja2 = "^3.1"
+selenium = "^4.15"
+requests = "^2.31"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4"
+pytest-asyncio = "^0.21"
+black = "^23.0"
+mypy = "^1.5"
+ruff = "^0.0.292"
+
+[tool.poetry.scripts]
+exam-pipeline = "exam_pipeline.cli:cli"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100
+target-version = ["py310"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "I", "N", "W"]
+ignore = ["E501"]
